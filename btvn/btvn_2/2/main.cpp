@@ -35,7 +35,7 @@ int main()
     }
     else // a!=0
     {
-        if(del > 0)
+        if (del > 0)
         {
            cout << "x1 = " << ((-b)+ (sqrt(del)))/(2*a) << endl;
            cout << "x2 = " << ((-b)- (sqrt(del)))/(2*a);
