@@ -1,3 +1,0 @@
-/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_2/cmake-build-debug/CMakeFiles/btvn_2.dir
-/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
