@@ -1,56 +1,35 @@
 #include <iostream>
-
 using namespace std;
-
-int main()
-{
-    //input 3 so
+int main() {
     float a,b,c;
-    cout << "nhap vao thu 1 ";
+    float t; // t la min
+    cout << "nhap so a: ";
     cin >> a;
-    cout << "nhap vao so thu 2 ";
+    cout << "nhap so b: ";
     cin >> b;
-    cout << "nhap vao thu 3 ";
+    cout << "nhap so c: ";
     cin >> c;
+
+
 
     if(a>b)
     {
-        if(b>c)
-        {
-            cout << c  << b  << a;
-        }
-        else //b<c
-        {
-            if(a>c) //a>b, c>b
-            {
-                cout << b << c << a;
-            }
-            else //b<a, a<c
-            {
-                cout << b << a << c;
-            }
-        }
+        t = b;
+        b = a;
+        a = t;
 
     }
-    else //a<b
+    if(a > c)
     {
-        if(b<c)
-        {
-            cout << a << b << c;
-        }
-        else //b>c
-        {
-            if(a>c)
-            {
-                cout << c << a << b;
-            }
-            else
-            {
-                cout << a << c << b;
-            }
-        }
-
+        t = c;
+        c = a;
+        a = t;
     }
-
-
+    if(b > c)
+    {
+        t = c;
+        c = b;
+        b = t;
+    }
+    cout << a << " " << b << " " << c;
 }
