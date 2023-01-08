@@ -1,0 +1,3 @@
+/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_4/clion/cau2/cmake-build-debug/CMakeFiles/cau2.dir
+/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_4/clion/cau2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_4/clion/cau2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/classworks/mang/cmake-build-debug/CMakeFiles/mang.dir
+/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/classworks/mang/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/classworks/mang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
