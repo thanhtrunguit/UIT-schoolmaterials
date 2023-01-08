@@ -1,3 +1,3 @@
-/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug/CMakeFiles/bai_02.dir
-/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug/CMakeFiles/bai_02.dir
+/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug/CMakeFiles/rebuild_cache.dir

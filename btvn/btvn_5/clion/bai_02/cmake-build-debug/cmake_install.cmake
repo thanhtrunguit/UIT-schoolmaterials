@@ -1,4 +1,4 @@
-# Install script for directory: /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02
+# Install script for directory: /Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

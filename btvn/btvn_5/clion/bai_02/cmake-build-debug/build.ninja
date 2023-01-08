@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug/
+cmake_ninja_workdir = /Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target bai_02
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_
 
 build cmake_object_order_depends_target_bai_02: phony || CMakeFiles/bai_02.dir
 
-build CMakeFiles/bai_02.dir/main.cpp.o: CXX_COMPILER__bai_02_Debug /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/main.cpp || cmake_object_order_depends_target_bai_02
+build CMakeFiles/bai_02.dir/main.cpp.o: CXX_COMPILER__bai_02_Debug /Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/main.cpp || cmake_object_order_depends_target_bai_02
   DEP_FILE = CMakeFiles/bai_02.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++20
   OBJECT_DIR = CMakeFiles/bai_02.dir
@@ -76,7 +76,7 @@ build bai_02: CXX_EXECUTABLE_LINKER__bai_02_Debug CMakeFiles/bai_02.dir/main.cpp
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug && "/Users/thanhtrung/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug && "/Users/thanhtrung/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug && "/Users/thanhtrung/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02 -B/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug
+  COMMAND = cd /Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug && "/Users/thanhtrung/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/222.4345.21/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02 -B/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug
+# Folder: /Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug
 
 build all: phony bai_02
 

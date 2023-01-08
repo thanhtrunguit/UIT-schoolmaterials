@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug"
+			"value" : "/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -515,7 +515,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02"
+			"value" : "/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02/cmake-build-debug"
+			"value" : "/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02/cmake-build-debug"
 		},
 		{
 			"name" : "bai_02_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/thanhtrung/UIT/nhapmonlaptrinh-codeblock/btvn/btvn_5/clion/bai_02"
+			"value" : "/Users/thanhtrung/UIT/nhap_mon_lap_trinh/btvn/btvn_5/clion/bai_02"
 		}
 	],
 	"kind" : "cache",
