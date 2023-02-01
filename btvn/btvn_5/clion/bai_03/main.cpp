@@ -27,11 +27,11 @@ void xuat_chuoi_dao_nguoc(char a[1000])
 {
     char b;
     char replace_1[1000];
-    strcpy(replace_1, a);
+    strcpy(replace_1, a);// tao ban sao copy chuoi a[10000] =>> tranh anh huong toi chuoi goc.
     int tmp = strlen(replace_1);
     for(int i = 0; i < tmp; i++)
     {
-        b = a[i];
+        b = replace_1[i];
         replace_1[i] = replace_1[tmp - 1];
         replace_1[tmp - 1] = b;
         tmp = tmp-1;
@@ -71,19 +71,23 @@ void cac_ki_tu_xuat_hien_1_lan(char a[1000])
     strcpy(replace_3, a);
     for(int i = 0; i < strlen(a); i++)
     {
-
+        count = 0;
         for(j = i +1 ; j < strlen(a); j++)
         {
             if(a[i] == a[j])
             {
                 count++;
-                a[j] = ' '; // loai bỏ kí tự phía sau nếu đã tồn tại trước đó, tránh việc phải scan những kí tự đã tồn 1 lần.
+                a[j] = ' ';
+                 // loai bỏ kí tự phía sau nếu đã tồn tại trước đó, tránh việc phải scan những kí tự đã tồn 1 lần.
             }
         }
-        if(count == 0)
-            cout << a[i];
-        count = 0;
+            if(count == 0)
+            {
+                cout << a[i];
+            }
     }
+
+
 }
 int main() {
     char a[1000];

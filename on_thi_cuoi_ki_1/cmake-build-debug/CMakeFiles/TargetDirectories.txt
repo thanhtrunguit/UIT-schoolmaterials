@@ -1,0 +1,3 @@
+/Users/thanhtrung/UIT/nhap_mon_lap_trinh/on_thi_cuoi_ki_1/cmake-build-debug/CMakeFiles/on_thi_cuoi_ki_1.dir
+/Users/thanhtrung/UIT/nhap_mon_lap_trinh/on_thi_cuoi_ki_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/thanhtrung/UIT/nhap_mon_lap_trinh/on_thi_cuoi_ki_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
