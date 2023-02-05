@@ -3,15 +3,9 @@
 using namespace std;
 void nhap_string(char a[1000])
 {
-    cout << "nhap chuoi ky tu:";
     gets(a);
-}
-/*
-void xuat_string(char a[1000])
-{
     puts(a);
 }
- */
 void xuat_cac_ki_tu_thuong(char a[1000])
 {
     for(int i = 0; i < strlen(a); i++)
@@ -74,28 +68,52 @@ void cac_ki_tu_xuat_hien_1_lan(char a[1000])
         count = 0;
         for(j = i +1 ; j < strlen(a); j++)
         {
-            if(a[i] == a[j])
+            if(replace_3[i] == replace_3[j])
             {
                 count++;
-                a[j] = ' ';
+                replace_3[j] = ' ';
                  // loai bỏ kí tự phía sau nếu đã tồn tại trước đó, tránh việc phải scan những kí tự đã tồn 1 lần.
             }
         }
             if(count == 0)
             {
-                cout << a[i];
+                cout << replace_3[i];
             }
     }
 
-
 }
+
+void xoa_ki_tu_trang_dau_cuoi(char a[])
+{
+    cout << endl;
+    char replace_4[1000], replace_5[1000];
+    strcpy(replace_4,a);
+    strcpy(replace_5,a);
+    int n = strlen(a);
+    while(replace_4[0] == 32)
+    {
+        for(int i = 0; i < n; i++)
+        {
+            replace_4[i] = replace_4[i+1];
+        }
+    }
+    int tmp = n-1;
+    cout << replace_4[n] << endl;
+    while(replace_4[tmp] == 32)
+    {
+        replace_4[tmp] = '\0';
+
+    }
+    puts(replace_4);
+}
+
 int main() {
     char a[1000];
     nhap_string(a);
-    //xuat_string(a);
     xuat_cac_ki_tu_thuong(a);
     xuat_chuoi_dao_nguoc(a);
     ki_tu_chan_le_xen_ke(a);
     cac_ki_tu_xuat_hien_1_lan(a);
+    xoa_ki_tu_trang_dau_cuoi(a);
     return 0;
 }
