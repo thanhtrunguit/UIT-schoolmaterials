@@ -72,13 +72,13 @@ void cac_ki_tu_xuat_hien_1_lan(char a[1000])
             {
                 count++;
                 replace_3[j] = ' ';
-                 // loai bỏ kí tự phía sau nếu đã tồn tại trước đó, tránh việc phải scan những kí tự đã tồn 1 lần.
+                // loai bỏ kí tự phía sau nếu đã tồn tại trước đó, tránh việc phải scan những kí tự đã tồn 1 lần.
             }
         }
-            if(count == 0)
-            {
-                cout << replace_3[i];
-            }
+        if(count == 0)
+        {
+            cout << replace_3[i];
+        }
     }
 
 }
